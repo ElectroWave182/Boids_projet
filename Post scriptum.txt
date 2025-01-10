@@ -1,0 +1,5 @@
+Notes de la démonstration
+-------------------------
+- 1er essai : bonne réponse
+- 2e essai : mauvaise réponse
+- 3e essai : temps écoulé (20 s.)

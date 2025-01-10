@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://c5hns8g8xte1d"]
+
+[ext_resource type="Script" path="res://scripts/Jeu.gd" id="1_rby0h"]
+[ext_resource type="Texture2D" uid="uid://d235i81cokcla" path="res://images/reticule.png" id="2_tkenm"]
+[ext_resource type="Script" path="res://scripts/Boid.gd" id="3_n8468"]
+
+[node name="racine" type="Node2D"]
+script = ExtResource("1_rby0h")
+
+[node name="viseur" type="Sprite2D" parent="."]
+visible = false
+top_level = true
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_tkenm")
+script = ExtResource("3_n8468")
+
+[node name="meneur" type="Sprite2D" parent="."]

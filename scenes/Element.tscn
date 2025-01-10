@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://duvj65nwfc8jt"]
+
+[ext_resource type="Texture2D" uid="uid://ctrjvm1mbfrg6" path="res://images/image_defaut.svg" id="1_xb51e"]
+[ext_resource type="Script" path="res://scripts/Sbire.gd" id="2_22oii"]
+[ext_resource type="Texture2D" uid="uid://cv7raq20271bs" path="res://images/vide.png" id="3_k5uf8"]
+
+[node name="image" type="Sprite2D"]
+z_as_relative = false
+y_sort_enabled = true
+texture = ExtResource("1_xb51e")
+script = ExtResource("2_22oii")
+
+[node name="collision" type="Sprite2D" parent="."]
+texture = ExtResource("3_k5uf8")
